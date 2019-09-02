@@ -4,8 +4,9 @@ import { Component } from '@angular/core';
   selector: 'app-root',
   template: `
   <div>
-    Hello World
+    <event-list></event-list>
   </div>
+
   `
 })
 export class AppComponent {
